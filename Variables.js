@@ -1,4 +1,4 @@
-// run by using node JS-Notes-1.js
+// run by using node Variables.js
 
 // outputting to the console
 console.log("Welcome to Javascript!");
@@ -37,8 +37,15 @@ console.log(z);
 /* 
 Variables declared with let have Block Scope
 Block Level Scope: This scope restricts the variable that is declared inside a specific block, from access by the outside of the block
-
 Variables declared with let must be Declared before use
-
 Variables declared with let cannot be Redeclared in the same scope
+
+
+Variables declared with the var always have Global Scope.
+Variables declared with the var keyword can NOT have block scope:
+
 */
+
+// Semicolons seperate statements in JS, they can allow multiple statements on one line
+
+console.log("\n" + z); console.log(x); console.log(y);
